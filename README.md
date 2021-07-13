@@ -5,7 +5,7 @@
   ```bash
   pip install azure-devops
   pip install PyOpenSSL
-  ansible-galaxy collection install git@github.com:edvlucas/ansible-azuredevops-collection.git#/community/azuredevops --force --no-cache
+  ansible-galaxy collection install git@github.com:edvlucas/azuredevops-ansible-collection.git --force --no-cache
   ```
 ## Using the collection roles
 
