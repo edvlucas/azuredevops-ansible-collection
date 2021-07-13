@@ -2,12 +2,11 @@
 
 ## Installing the collection
 
-  '''
+  ```bash
   pip install azure-devops
   pip install PyOpenSSL
   ansible-galaxy collection install git@github.com:edvlucas/ansible-azuredevops-collection.git#/community/azuredevops --force --no-cache
-  '''
-
+  ```
 ## Using the collection roles
 
 At the beginning of a play, add:
