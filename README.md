@@ -12,14 +12,14 @@
 
 At the beginning of a play, add:
 
-  '''
+  ```yaml
   collections:
     -  community.azuredevops
-  '''
+  ```
 
 And then, use the collection modules in your tasks. Example:
 
-  '''
+  ```yaml
   tasks:
     - azdo_agent:
         name: "{{ inventory_hostname }}"
@@ -27,7 +27,7 @@ And then, use the collection modules in your tasks. Example:
         pat: "{{ azdo_pat }}"
         url: "{{ azdo_org_url }}"
       register: agentstatus
-  '''
+  ```
 
 # Modules
 
